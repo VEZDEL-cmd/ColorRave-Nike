@@ -58,57 +58,112 @@ a {
 }
 
 body {
-  font-family: "Jost";
+  font-family: "Roboto";
 }
-.header{
-  background:#012D63;
-;
+/* .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+} */
+
+.header {
+  background: #012D63;
+  ;
 }
 
- 
-.nav{
+
+.nav {
   display: flex;
-align-items: baseline;
-justify-content: center;
-justify-content: flex-end;
-color: #C7C7C7;
-font-family: Roboto;
-font-size: 24px;
-font-weight: 300;
- 
+  align-items: baseline;
+  justify-content: flex-end;
+  color: #C7C7C7;
+  font-size: 24px;
+  font-weight: 300;
+
 }
-.nav-list{
+
+.nav-list {
+  display: flex;
+  gap: 29px;
+  margin-top: 15px;
+  color: #C7C7C7;
+
+}
+.nav-list li :hover{
+color: #FFF;
+}
+
+.lang-switch {
+  margin: 73px 165px;
+}
+/* .lang-switch a :hover{
+color: #FFF;
+} */
+
+ 
+
+.features {
   display: flex;
   justify-content: center;
-  gap: 29px;
-  margin-top: 15px ;
-  color: #C7C7C7;
+
+  gap: 40px;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #250057, #092258);
+  border-top: 2px solid #8e32c6;
+  border-bottom: 2px solid #8e32c6;
+}
+
+.feature-item {
+  text-align: center;
+  max-width: 220px;
+  color: white;
+}
+
+.hero {
+  height: 858px;
+  background-size: 1600px;
+  background-position:center ;
+  background-image: url("imgs/nike-bg.png");
+  background-repeat: no-repeat;
+  padding-top: 200px;
+} 
  
+
+.hero-title {
+  color: #FFF;
+  font-family: "Playfair Display";
+  font-size: 144px;
+  font-weight: 400;
+  margin-left: 164px;
+  
 }
-.lang-switch{
-   margin: 73px 165px;
+
+.hero-subtitle {
+  color: #FFF;
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: 400;
+  margin-left: 164px;
 }
-.hero-btn{
-    width: 254px;
+
+.hero-description {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  max-width: 600px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  margin-left: 164px;
+  gap: 12px;
+}
+.hero-btn {
+  width: 254px;
   height: 67px;
   background-color: #8E32C6;
   color: white;
   font-size: 20px;
   font-weight: 600;
-  border: none;
   border-radius: 10px;
-}
-.features{
-  display: flex;
-  justify-content: center;
-  gap: 40px;  
-  padding: 60px 20px;
-   background: linear-gradient(to bottom, #250057, #092258);
-  border-top: 2px solid #8e32c6;
-  border-bottom: 2px solid #8e32c6;
-}
-.feature-item{
-    text-align: center;
-  max-width: 220px;
-  color: white;
+  margin-left: 164px;
 }
