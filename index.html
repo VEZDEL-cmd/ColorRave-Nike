@@ -18,26 +18,30 @@
 <body>
 
   <header class="header">
-      <div class="container">
-    <nav class="nav">
-      <ul class="nav-list">
-        <li><a href="#">Main page</a></li>
-        <li><a href="#">Benefits</a></li>
-        <li><a href="#">Advantages</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li><a href="#">Contacts</a></li>
-        <li><a href="#"> Order</a></li>
-      </ul>
-      <div class="lang-switch">
-        <a href="#">Ua</a> <a href="#">Eng</a>
-      </div>
-    </nav>
+    <div class="container"> 
+      <a href="index.html"> <img src="imgs/Nike.png" class="header-logo" alt="nike"></a>
+      <nav class="nav"> 
+        <ul class="nav-list">
+          <li><a href="#">Main page</a></li>
+          <li><a href="#">Benefits</a></li>
+          <li><a href="#">Advantages</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#"> Order</a></li>
+        </ul>
+        <div class="lang-switch">
+          <a href="ua.html">Ua</a> <a href="index.html">Eng</a>
+        </div>
+      </nav>
 
     </div>
   </header>
   <section class="hero">
     <div class="container">
+      <img src="imgs/Nike.png" class="hero-img" alt="nike">
+      <h2 class="hero-pid-logo">С&R</h2>
       <h1 class="hero-title">ColoRawe</h1>
+
       <p class="hero-subtitle">Your dream Nike</p>
       <p class="hero-description">On this site you can find custom Nike sneakers of your dreams.
         The original company caт`t create such beautiful
@@ -45,11 +49,11 @@
         Good luck finding your way in the world of custom sneakers.</p>
       <button class="hero-btn">Buy my Nike</button>
     </div>
-    
+
   </section>
 
   <section class="features">
-      <div class="container">
+    <div class="feature-list container">
       <div class="feature-item">
         <img src="imgs/Звёзды 1.png" alt="Premium Quality">
         <h3>Premium Quality</h3>
@@ -57,78 +61,92 @@
       <div class="feature-item">
         <img src="imgs/Краски 1.png" alt="Indelible paint">
         <h3>Indelible paint</h3>
-     </div>
-     <div class="feature-item">
+      </div>
+      <div class="feature-item">
         <img src="imgs/Грузан 1.png" alt="Fast shipping">
         <h3>Fast shipping</h3>
-     </div>
       </div>
- 
-  </section>
+    </div>
 
+  </section>
 
   <section class="reviews">
-      <div class="container">
-    <h2 class="reviews-title">Reviews</h2>
-    <ul class="reviews-list">
-      <li class="review-card">
-        <p class="review-text">Sneakers are very comfortable and well painted, nothing has worn off in a year.</p>
-        <span class="review-date">25.11</span>
-        <div class="review-author">
-          <img src="imgs/Ellipse 17.png" alt="John Taylor">
-          <p>John Taylor</p>
+        <div class="container">
+          <h2 class="reviews-title">Reviews</h2>
+          <ul class="reviews-list">
+            <li class="reviews-item one">
+              <h3 class="reviews-subtitle">
+                Sneakers are very comfortable and well painted, nothing has worn
+                off in a year.
+              </h3>
+              <p class="date">25.11</p>
+            
+              <img  class="reviews-img" src="imgs/Ellipse 17.png" alt="John Taylor">
+               <div class="reviews-container">
+              <p class="name">John Teylor</p>
+              <p class="reviews-text">With us from 2018</p>
+              </div>
+            </li>
+            <li class="reviews-item two">
+              <h3 class="reviews-subtitle">
+                I'm very happy with this color scheme. They match all my
+                clothes.
+              </h3>
+              <p class="date">05.01</p>
+             
+        <img  class="reviews-img" src="imgs/Ellipse 18.png" alt="Elizabeth Ghia">
+
+                 <div class="reviews-container">
+              <p class="name">Elizabeth Garsia</p>
+              <p class="reviews-text">With us from 2020</p>
+              </div>
+            </li>
+            <li class="reviews-item three">
+              <h3 class="reviews-subtitle">
+                Just right if you need to go to a party. I use them actively,
+                the paint is super.
+              </h3>
+              <p class="date">18.06</p>
+            <img  class="reviews-img" src="imgs/Ellipse 19.png" alt="Tom Maguire">
+               <div class="reviews-container">
+              <p class="name">Tom Maquare</p>
+              <p class="reviews-text">With us from 2019</p>
+              </div>
+            </li>
+          </ul>
         </div>
-      </li>
-      <li class="review-card">
-        <p class="review-text">I'm very happy with this color scheme. They match all my clothes.</p>
-        <span class="review-date">05.01</span>
-        <div class="review-author">
-          <img src="imgs/Ellipse 18.png" alt="Elizabeth Ghia">
-          <p>Elizabeth Ghia</p>
-        </div>
-      </li>
-      <li class="review-card">
-        <p class="review-text">Just right if you need to go to a party. I use them actively, the paint is super.</p>
-        <span class="review-date">18.06</span>
-        <div class="review-author">
-          <img src="imgs/Ellipse 19.png" alt="Tom Maguire">
-          <p>Tom Maguire</p>
-        </div>
-      </li>
-    </ul>
-     </div>
-  </section>
+      </section>
 
 
   <section class="order">
-      <div class="container">
-    <h2>Order</h2>
+  <div class="container">
+    <h2 class="order-title">Order</h2>
     <form class="order-form">
       <div class="order-top">
-        <input type="email" placeholder="Write your email" required>
-        <button type="submit">Confirm</button>
+        <input class="order-input" type="email" placeholder="Write your email" required>
+        <button class="order-confirm" type="submit">Confirm</button>
       </div>
-      <input type="text" placeholder="Your Country">
-      <input type="text" placeholder="Your City">
-      <input type="text" placeholder="Your Address">
+      <input class="order-input" type="text" placeholder="Your Country">
+      <input class="order-input" type="text" placeholder="Your City">
+      <input class="order-input" type="text" placeholder="Your Address">
       <button class="order-btn">Order my Nike</button>
     </form>
-      </div>
-  </section>
+  </div>
+</section>
 
 
   <footer class="footer">
-      <div class="container">
-    <p class="footer-question">Have a question?</p>
-    <p class="footer-proposal">Have a proposal for cooperation?</p>
-    <p class="footer-advert">Advertising questions?</p>
+    <div class="container">
+      <p class="footer-question">Have a question?</p>
+      <p class="footer-proposal">Have a proposal for cooperation?</p>
+      <p class="footer-advert">Advertising questions?</p>
 
-    <ul class="footer-contacts">
-      <li>Email: ColorRawe_Cooperation@gmail.com</li>
-      <li>Email: ColorRawe_Advertising@gmail.com</li>
-    </ul>
+      <ul class="footer-contacts">
+        <li>Email: ColorRawe_Cooperation@gmail.com</li>
+        <li>Email: ColorRawe_Advertising@gmail.com</li>
+      </ul>
 
-    <p class="footer-copy">2023 ColorRawe. All rights reserved</p>
-      </div>
+      <p class="footer-copy">2023 ColorRawe. All rights reserved</p>
+    </div>
   </footer>
 </body>

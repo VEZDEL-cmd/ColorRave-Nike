@@ -60,16 +60,22 @@ a {
 body {
   font-family: "Roboto";
 }
-/* .container {
+
+.container {
   max-width: 1140px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-} */
+  /* padding-left: 15px;
+  padding-right: 15px; */
+}
 
 .header {
   background: #012D63;
-  ;
+  padding-left: 168px;
+  padding-right: 165px;
+}
+
+.header-logo {
+  margin-right: 152px;
 }
 
 
@@ -85,58 +91,80 @@ body {
 
 .nav-list {
   display: flex;
-  gap: 29px;
-  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
   color: #C7C7C7;
+  gap: 29px;
 
 }
-.nav-list li :hover{
-color: #FFF;
+
+.nav-list li :hover {
+  color: #FFF;
 }
 
 .lang-switch {
-  margin: 73px 165px;
+  margin: 50px;
+
 }
-/* .lang-switch a :hover{
-color: #FFF;
-} */
-
- 
-
 .features {
-  display: flex;
-  justify-content: center;
-
-  gap: 40px;
-  padding: 60px 20px;
-  background: linear-gradient(to bottom, #250057, #092258);
-  border-top: 2px solid #8e32c6;
-  border-bottom: 2px solid #8e32c6;
+  background-image: url(imgs/Group\ 8\ 1\ \(1\).png);
+  background-repeat: no-repeat;
+ 
 }
 
 .feature-item {
-  text-align: center;
-  max-width: 220px;
-  color: white;
+text-align: center;
+max-width: 240px;
+color: white;
+font-family: "Playfair Display";
+font-size: 36px;
+font-weight: 400;
+line-height: normal;
+}
+
+.feature-list {
+display: flex;
+justify-content: center; 
+align-items: center;
+flex-wrap: wrap;
+width: 1440px;
+height: 606px;
+padding: 0;
+margin: 0 auto;
+gap: 145px;
 }
 
 .hero {
   height: 858px;
   background-size: 1600px;
-  background-position:center ;
+  background-position: center;
   background-image: url("imgs/nike-bg.png");
   background-repeat: no-repeat;
   padding-top: 200px;
-} 
+}
+
+.hero-img {
+  width: 160px;
+  height: 120px;
+
+}
+
+.hero-pid-logo {
+  color: #FFF;
+  font-family: "PT Serif";
+  font-size: 48px;
+  font-weight: 400;
  
+
+}
 
 .hero-title {
   color: #FFF;
   font-family: "Playfair Display";
   font-size: 144px;
   font-weight: 400;
-  margin-left: 164px;
-  
+ 
+
 }
 
 .hero-subtitle {
@@ -144,7 +172,9 @@ color: #FFF;
   font-family: "Playfair Display";
   font-size: 72px;
   font-weight: 400;
-  margin-left: 164px;
+ 
+  line-height: 1;
+  margin-bottom: 12px;
 }
 
 .hero-description {
@@ -154,9 +184,10 @@ color: #FFF;
   max-width: 600px;
   margin-bottom: 30px;
   font-weight: 400;
-  margin-left: 164px;
+ 
   gap: 12px;
 }
+
 .hero-btn {
   width: 254px;
   height: 67px;
@@ -165,5 +196,170 @@ color: #FFF;
   font-size: 20px;
   font-weight: 600;
   border-radius: 10px;
-  margin-left: 164px;
+  
 }
+
+.reviews {
+  background-size: 1600px;
+  background-position: center;
+  justify-content: center;
+  background: url(imgs/Group\ 6\ 1.png) no-repeat;
+  width: 1440px;
+  height: 520px;
+}
+
+.one {
+  border-radius: 15px;
+  background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+  box-shadow: 0 14px 0 -5px #7B54B2, 0 30px 0 -13px #533978;
+  padding: 49px 14px 29px 13px;
+}
+
+.two {
+  border-radius: 15px;
+  background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+  box-shadow: 0 14px 0 -5px #9159B1, 0 30px 0 -13px #61337C;
+  padding: 49px 9px 29px 18px;
+}
+
+.three {
+  border-radius: 15px;
+  background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+  box-shadow: 0 14px 0 -5px #B95A4C, 0 30px 0 -13px #732F26;
+  padding: 49px 9px 29px 18px;
+}
+
+.reviews-list {
+  display: flex;
+  justify-content: center;
+  gap: 93px;
+}
+
+.reviews-item {
+  width: 255px;
+  height: 292px;
+
+
+}
+
+.reviews-title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.reviews-subtitle {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+ 
+ 
+}
+
+.date {
+  color: #D8D8D8;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 47px;
+}
+
+.name {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 54px;
+}
+
+.reviews-text {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 54px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order {
+  background: url(imgs/Group\ 2\ 1.png) no-repeat center / cover;
+background-size: 1600px;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+}
+
+.order-title {
+  margin-bottom: 30px;
+  color: #FFF;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.order-top {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.order-input {
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+}
+
+.order-confirm {
+  padding: 12px 25px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+
+}
+
+.order-confirm:hover {
+  background-color: #f0f0f0;
+}
+
+.order-btn {
+  padding: 12px 40px;
+  background: linear-gradient(90deg, #d946ef, #3b82f6);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  transition: opacity 0.3s;
+}
+
+ 
