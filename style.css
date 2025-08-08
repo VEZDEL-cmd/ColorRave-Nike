@@ -71,10 +71,10 @@ body {
 .header {
   width: 1600px;
   height: 93px;
-display: flex;
-align-items: center;            
-background: #012D63;
- 
+  display: flex;
+  align-items: center;
+  background: #012D63;
+
 }
 
 .header-logo {
@@ -100,8 +100,9 @@ background: #012D63;
   gap: 29px;
 
 }
-.lang-switch a:hover  {
- color: #FFF;
+
+.lang-switch a:hover {
+  color: #FFF;
 }
 
 .nav-list li :hover {
@@ -109,37 +110,38 @@ background: #012D63;
 }
 
 .lang-switch {
-padding: 50px 100px;
+  padding: 50px 100px;
 
 }
+
 .features {
   background-size: 1600px;
   background-position: center;
   background-image: url(imgs/Group\ 8\ 1\ \(1\).png);
   background-repeat: no-repeat;
- 
+
 }
 
 .feature-item {
-text-align: center;
-max-width: 240px;
-color: white;
-font-family: "Playfair Display";
-font-size: 36px;
-font-weight: 400;
-line-height: normal;
+  text-align: center;
+  max-width: 240px;
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .feature-list {
-display: flex;
-justify-content: center; 
-align-items: center;
-flex-wrap: wrap;
-width: 1440px;
-height: 606px;
-padding: 0;
-margin: 0 auto;
-gap: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1440px;
+  height: 606px;
+  padding: 0;
+  margin: 0 auto;
+  gap: 145px;
 }
 
 .hero {
@@ -152,9 +154,9 @@ gap: 145px;
 }
 
 .hero-img {
- width: 160px;
-height: 120px;
-  
+  width: 160px;
+  height: 120px;
+
 }
 
 .hero-pid-logo {
@@ -162,7 +164,7 @@ height: 120px;
   font-family: "PT Serif";
   font-size: 48px;
   font-weight: 400;
- 
+
 
 }
 
@@ -171,7 +173,7 @@ height: 120px;
   font-family: "Playfair Display";
   font-size: 144px;
   font-weight: 400;
- 
+
 
 }
 
@@ -180,7 +182,7 @@ height: 120px;
   font-family: "Playfair Display";
   font-size: 72px;
   font-weight: 400;
- 
+
   line-height: 1;
   margin-bottom: 12px;
 }
@@ -192,7 +194,7 @@ height: 120px;
   max-width: 600px;
   margin-bottom: 30px;
   font-weight: 400;
- 
+
   gap: 12px;
 }
 
@@ -204,14 +206,14 @@ height: 120px;
   font-size: 20px;
   font-weight: 600;
   border-radius: 10px;
-  
+
 }
 
 .reviews {
   height: 520px;
   background-size: 1600px;
   background-position: center;
-  background: url(imgs/Group\ 6\ 1.png) ;
+  background: url(imgs/Group\ 6\ 1.png);
   background-repeat: no-repeat;
 }
 
@@ -265,8 +267,8 @@ height: 120px;
   font-size: 24px;
   font-weight: 400;
   line-height: normal;
- 
- 
+
+
 }
 
 .date {
@@ -300,56 +302,43 @@ height: 120px;
 }
 
 .order {
+  background-repeat: no-repeat;
+ background-position: center;
   background: url(imgs/Group\ 2\ 1.png) no-repeat center / cover;
-background-size: 1600px;
-  padding: 60px 0;
-  text-align: center;
-  color: white;
 }
 
 .order-title {
-  margin-bottom: 30px;
-  color: #FFF;
-  font-family: "Playfair Display";
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
+color: #FFF;
+font-family: "Playfair Display";
+font-size: 48px;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin-bottom: 33px;
 
 }
 
-.order-form {
+.order-list{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
-  max-width: 600px;
-  margin: 0 auto;
+  gap: 33px;
 }
+.order-input{
+  color: #959595;
+font-size: 28px;
+font-weight: 400;
+line-height: normal;
+border-radius: 50px;
+background: #FFF;
+width: 580px;
+height: 50px;
+padding-left: 24px;
 
-.order-top {
-  display: flex;
-  gap: 10px;
-  width: 100%;
 }
-
-.order-input {
-  padding: 12px 20px;
-  border-radius: 20px;
-  border: none;
-  width: 100%;
-  max-width: 400px;
-  font-size: 16px;
-}
-
-.order-confirm {
-  padding: 12px 25px;
-  background-color: white;
-  color: black;
-  border-radius: 20px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-
+.order-input-one{
+  width: 690px;
+height: 60px;
 }
 
 .order-confirm:hover {
@@ -357,16 +346,106 @@ background-size: 1600px;
 }
 
 .order-btn {
-  padding: 12px 40px;
-  background: linear-gradient(90deg, #d946ef, #3b82f6);
-  border: none;
-  border-radius: 20px;
-  color: white;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 10px;
-  font-size: 16px;
+  color: #FFF;
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+border-radius: 16px;
+background: #8E32C6;
+width: 248px;
+height: 68px;
+margin-top: 19px;
+margin-left: 440px;
+margin-bottom: 16px;
+}
+
+.footer {
+  background-color: #021635;
+}
+
+.footer-text {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-link {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
   
 }
 
- 
+.footer-adress {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-country {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-container {
+  display: flex;
+  gap: 373px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.footer-c-r {
+  color: #FFF;
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  width: 108px;
+  height: 81px;
+}
+
+.footer-adress-container {
+  display: flex;
+  justify-content: space-between
+}
+
+.footer-email-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
