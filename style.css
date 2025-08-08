@@ -69,13 +69,16 @@ body {
 }
 
 .header {
-  background: #012D63;
-  padding-left: 168px;
-  padding-right: 165px;
+  width: 1600px;
+  height: 93px;
+display: flex;
+align-items: center;            
+background: #012D63;
+ 
 }
 
 .header-logo {
-  margin-right: 152px;
+  width: 100px;
 }
 
 
@@ -86,16 +89,19 @@ body {
   color: #C7C7C7;
   font-size: 24px;
   font-weight: 300;
-
 }
 
 .nav-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  /* justify-content: center; */
   align-items: center;
   color: #C7C7C7;
   gap: 29px;
 
+}
+.lang-switch a:hover  {
+ color: #FFF;
 }
 
 .nav-list li :hover {
@@ -103,10 +109,12 @@ body {
 }
 
 .lang-switch {
-  margin: 50px;
+padding: 50px 100px;
 
 }
 .features {
+  background-size: 1600px;
+  background-position: center;
   background-image: url(imgs/Group\ 8\ 1\ \(1\).png);
   background-repeat: no-repeat;
  
@@ -144,9 +152,9 @@ gap: 145px;
 }
 
 .hero-img {
-  width: 160px;
-  height: 120px;
-
+ width: 160px;
+height: 120px;
+  
 }
 
 .hero-pid-logo {
@@ -200,12 +208,11 @@ gap: 145px;
 }
 
 .reviews {
+  height: 520px;
   background-size: 1600px;
   background-position: center;
-  justify-content: center;
-  background: url(imgs/Group\ 6\ 1.png) no-repeat;
-  width: 1440px;
-  height: 520px;
+  background: url(imgs/Group\ 6\ 1.png) ;
+  background-repeat: no-repeat;
 }
 
 .one {
