@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>ColoRawe</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,16 +19,16 @@
 <body>
 
   <header class="header">
-    <div class="container">
-      <a href="index.html"> <img src="imgs/Nike.png" class="header-logo" alt="nike"></a>
+    <div class="container header-div">
+      <a href="index.html"> <img src="imgs/Nike.webp" class="header-logo" alt="nike"></a>
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="">Main page</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Benefits</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Advantages</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Reviews</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Order</a></li>
+          <li class="nav-item"><a href="">Main page</a></li>
+          <li class="nav-item"><a href="">Benefits</a></li>
+          <li class="nav-item"><a href="">Advantages</a></li>
+          <li class="nav-item"><a href="">Reviews</a></li>
+          <li class="nav-item"><a href="">Contacts</a></li>
+          <li class="nav-item"><a href="">Order</a></li>
         </ul>
         <div class="lang-switch">
           <a class="language" href="ua.html">Ua</a> <a class="language" href="index.html">Eng</a>
@@ -39,7 +39,7 @@
   </header>
   <section class="hero">
     <div class="container">
-      <img src="imgs/Nike.png" class="hero-img" alt="nike">
+      <img src="imgs/Nike.webp" class="hero-img" alt="nike">
       <h2 class="hero-pid-logo">С&R</h2>
       <h1 class="hero-title">ColoRawe</h1>
 
@@ -54,21 +54,22 @@
   </section>
 
   <section class="features">
-    <div class="feature-list container">
-      <div class="feature-item">
-        <img src="imgs/Звёзды 1.png" alt="Premium Quality">
-        <h3>Premium Quality</h3>
-      </div>
-      <div class="feature-item">
-        <img src="imgs/Краски 1.png" alt="Indelible paint">
-        <h3>Indelible paint</h3>
-      </div>
-      <div class="feature-item">
-        <img src="imgs/Грузан 1.png" alt="Fast shipping">
-        <h3>Fast shipping</h3>
-      </div>
+    <div class="container">
+      <ul class="features-list">
+        <li class="features-item features-one">
+          <h3 class="features-title">Premium<br>Quality</h3>
+          <img class="features-img" src="imgs/stars.webp" alt="man and 5 stars" />
+        </li>
+        <li class="features-item">
+          <img class="features-img" src="imgs/car.webp" alt="3 spray paints" />
+          <h3 class="features-title">Indelible<br>paint</h3>
+        </li>
+        <li class="features-item features-three">
+          <h3 class="features-title">Fast<br>shipping</h3>
+          <img class="features-img" src="imgs/car.webp" alt="purple lorry" />
+        </li>
+      </ul>
     </div>
-
   </section>
 
   <section class="reviews">
@@ -81,11 +82,14 @@
             off in a year.
           </h3>
           <p class="date">25.11</p>
-
-          <img class="reviews-img" src="imgs/Ellipse 17.png" alt="John Taylor">
-          <div class="reviews-container">
-            <p class="name">John Teylor</p>
-            <p class="reviews-text">With us from 2018</p>
+          <div class="reviews-wrapper">
+          <img class="reviews-img" src="imgs/John Teylor.webp" alt="John Taylor">
+          <div class="name-div">
+            <div class="reviews-container">
+              <p class="name">John Teylor</p>
+              <p class="reviews-text">With us from 2018</p>
+            </div>
+          </div>
           </div>
         </li>
         <li class="reviews-item two">
@@ -94,13 +98,15 @@
             clothes.
           </h3>
           <p class="date">05.01</p>
-
-          <img class="reviews-img" src="imgs/Ellipse 18.png" alt="Elizabeth Ghia">
-
-          <div class="reviews-container">
-            <p class="name">Elizabeth Garsia</p>
-            <p class="reviews-text">With us from 2020</p>
+          <div class="reviews-wrapper">
+          <img class="reviews-img" src="imgs/Elizabeth Garsia.webp" alt="Elizabeth Ghia">
+          <div class="name-div">
+            <div class="reviews-container">
+              <p class="name">Elizabeth Garsia</p>
+              <p class="reviews-text">With us from 2020</p>
+            </div>
           </div>
+        </div>
         </li>
         <li class="reviews-item three">
           <h3 class="reviews-subtitle">
@@ -108,10 +114,14 @@
             the paint is super.
           </h3>
           <p class="date">18.06</p>
-          <img class="reviews-img" src="imgs/Ellipse 19.png" alt="Tom Maguire">
-          <div class="reviews-container">
-            <p class="name">Tom Maquare</p>
-            <p class="reviews-text">With us from 2019</p>
+          <div class="reviews-wrapper">
+          <img class="reviews-img" src="imgs/Tom Maquare.webp" alt="Tom Maguire">
+          <div class="name-div">
+            <div class="reviews-container">
+              <p class="name">Tom Maquare</p>
+              <p class="reviews-text">With us from 2019</p>
+            </div>
+          </div>
           </div>
         </li>
       </ul>
@@ -125,7 +135,8 @@
       <form action="">
         <ul class="order-list">
           <li class="order-item">
-            <input class="order-input order-input-one" type="email" placeholder="Write your email" />
+            <input class="order-input order-input-one" type="email"
+              placeholder="Write your email                                            Confirm  " />
           </li>
           <li class="order-item">
             <input class="order-input" type="text" placeholder="Your Country" />
@@ -178,8 +189,8 @@
           <p class="footer-country">United States</p>
         </div>
         <div class="logo-container">
-          <img class="footer-logo" src="imgs/Nike.png" alt="logo of the Nike" />
-          <p class="footer-c-r">С&R</p>
+          <img class="footer-logo" src="imgs/Nike.webp" alt="logo of the Nike" />
+          <p class="footer-CR">С&R</p>
         </div>
       </div>
     </div>
